@@ -1,0 +1,273 @@
+
+/*reset*/
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+
+        }
+        
+/* main styling*/
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+
+}
+
+
+h1,h2,h3{
+padding-bottom: 20px;
+
+}
+
+.history {
+    margin: 0 0 20px 0;
+}
+
+ .container{
+     margin: auto;
+     max-width: 1100px;
+     overflow: auto;
+     padding: 0 20px;
+ }
+
+ #navbar{
+background-color: #333;
+color: white;
+overflow: auto;
+
+
+ }
+ #navbar a{
+     color: #fff;
+
+ }
+ #navbar .logo{
+padding: 20px;
+float: left;
+
+
+ }
+ #navbar ul{
+     list-style: none;
+     
+     float: right;
+
+
+ }
+ #navbar ul li{
+     float: left;
+ }
+ #navbar ul li a{
+
+  display: block;
+  padding: 20px;
+  text-align: center; 
+
+ }
+ #navbar ul li a:hover,#navbar ul li a.current{
+     background-color: burlywood;
+     color: brown;
+ }
+ #showcase{
+     background: url(../img/showcase.jpg) no-repeat center center/cover;
+     height: 600px;
+ }
+ #showcase .showcase-content{
+     color: white;
+     text-align: center;
+     padding-top: 180px;
+     text-transform: uppercase;
+ }
+ #showcase .showcase-content h1 {
+     font-size: 50px;
+     line-height: 1.2em;
+ }
+ 
+ 
+ .lead{
+     font-size: 17px;
+ }
+ .btn{
+     display: inline-block;
+     font-size: 15px;
+     text-transform: lowercase;
+     padding: 12px 20px;
+     background: #333;
+     color: white;
+     border: none;
+     cursor: pointer;
+
+ }
+ .btn:hover{
+     color: brown;
+     background-color: blanchedalmond;
+ }
+ .btn-light{
+     color: #333;
+     background: #f4f4f4;
+ }
+ .bg-dark{
+  background: #333;
+  color: #fff;
+
+ }
+ #showcase .showcase-content p{
+     line-height: 30px;
+ }
+ /*home-info*/
+ #home-info{
+     height: 650px;
+ }
+ #home-info .info-img{
+     background: url(../img/photo-1.jpg)no-repeat;
+     float: left;
+     width: 50%;
+     min-height: 100%;
+ }
+ #home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 100px 30px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 50px;
+    
+
+  }
+ 
+  .text-primary{
+      color: brown;
+      
+  }
+  h2{
+      font-size: 50px;
+      margin: 70px 0 40px 0;
+    line-height: 50px;
+  }
+  
+   .box{
+       float: left;
+       padding: 50px;
+       text-align: center;
+       width: 33.3%;
+
+
+   }
+   .box i{
+       margin-bottom: 10px;
+   }
+
+  .bg-primary{
+  background: orange;
+  color: #333;      
+
+}
+.bg-light{
+    background: white;
+    color: #333;
+}
+
+.clr{
+    clear: both;
+}
+#main-footer{
+    background: red;
+    color: white;
+    text-align: center;
+}
+
+#about-info .info-right{
+
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+
+}
+#about-info .info-left{
+    float: left;
+    min-height: 100%;
+    width: 50%;
+}
+.py-1{padding: 10px 0;
+}
+.py-2{padding: 20px 0;
+}
+.py-3{padding: 30px 0;
+}
+
+.l-heading{
+    font-size: 40px;
+    line-height: 1.5;
+}
+#testimonials{
+    height: 100%;
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    padding: 40px;
+
+}
+#testimonials .testimonial img{
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#contact-form .form-group{
+
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input , #contact-form textarea{
+ width: 100%;
+ padding: 10px;
+ border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+outline: none;
+border-color: #f7c08a;
+
+}
+#contact-form{
+    padding-top: 30px;
+}
+.new{
+    margin-bottom: 10px;
+}
